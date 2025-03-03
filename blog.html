@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--REQUIRED: head semantic element, 2-28-25-->
+<head>
+	<title>Metalonomicon :: Blog</title>
+	<meta charset="utf-8">
+	
+	<!--REQUIRED: author metadata, 2-28-25-->
+	<meta name="author" content="Summer Hall">
+
+	<!--REQUIRED: title metadata, 2-28-25-->
+	<meta name="title" content="Metalonomicon :: Blog"> 
+
+	<!--REQUIRED: keywords metadata, 2-28-25-->
+	<meta name="keywords" content="Metal, Music"> 
+	
+	<!--REQUIRED: description metadata, 2-28-25-->
+	<meta name="description" content="The main hub of the sites blog. It holds recent site news posts, lists and reviews. Along with a search bar to sift through the entries and sort them."> 
+
+	<!--REQUIRED: viewport metadata, 2-28-25-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="metalnomicon.css">
+
+	<style>
+	</style>
+</head>
+
+<!--REQUIRED: Body semantic element, 2-28-25-->
+<body>
+	<header>
+		<h1 id="logo">Metal-onomicon</h1>
+	
+		<section id="loginnav">
+			<div id="login">
+				<!--REQUIRED: form element, 2-28-25-->	
+				<form method="get">
+					<h2 class="stickbelow">Member Login</h2>
+
+					<div class="replacebr">
+						<!--REQUIRED: input element 1 of 3, 2-28-25-->
+						Username:<input type="text" name="uname" id="uname">
+					</div>
+
+					<div class="replacebr">
+						<!--REQUIRED: input element 2 of 3, 2-28-25-->
+						Password:<input type="text" name="pword" id="pword">
+					</div>
+
+					<div class="replacebr">
+						<!--REQUIRED: submit button, 2-28-25-->
+						<input type="submit" value="Login">
+					</div>
+				</form>
+			</div>
+
+				<!--REQUIRED: nav semantic element, 2-28-25-->
+				<nav>
+					<a href="index.html">Home</a>
+					<a href="catalogue.html">Catalogue</a>
+					<a href="blog.html">Blog</a>
+					<a href="calendar.html">Calendar</a>
+					<a href="about.html">About</a>
+				</nav>
+		</section>
+	</header>
+
+	<!--REQUIRED: main semantic element, 2-28-25-->
+	<main>
+		<section class="sidebar">
+			<div class="sidebardiv">
+				<h2 class="stickbelow">Search Posts</h2>
+				
+				<!--REQUIRED: required, 3-2-25-->
+				<p>Required fields are marked with an asterisk *</p>	
+				<form method="get">
+					<label for="postTitle">* Title:</label><input type="text" name="postTitle" id="postTitle" required placeholder="post Title" class="replacebr">
+	
+					<label for="postAuthor">* Author:</label><input type="text" name="postAuthor" id="postAuthor" required placeholder="post Author" class="replacebr">	
+				
+					<p class="stickbelow">Sort:</p>
+					<!--REQUIRED: radio button OR checkbox, 2-28-25-->
+					<ul id="sortlist" class="sticktop">
+						<li><input type="checkbox" name="descend" id="descend" value="yes">Descending(latest to oldest)</li>
+						<li><input type="checkbox" name="ascend" id="ascend" value="yes">Ascending(oldest to latest)</li>
+						<li><input type="checkbox" name="alphabet" id="alphabet" value="yes">Alphabetical</li>
+					</ul>
+
+					<input type="submit" value="Search">
+					<input type="reset">
+				</form>
+			</div>
+		</section>
+
+		<section class="middle">
+			<article class="blog">
+				<header>
+					<h2>Best Royalty Free Beats</h2>
+					<p>March 25, 2022</p>
+				</header>
+				<p>White Bat Audio is renowned for providing some of the highest-quality backing metal audio tracks available today. Their extensive library features a diverse range of metal subgenres, from thrash to doom to death metal, ensuring there is something for every type of musician or producer. Each track is meticulously crafted with heavy guitar riffs, powerful drum beats, and dynamic basslines, making them the perfect foundation for both practice sessions and professional recordings. What sets White Bat Audio apart is their commitment to offering these high-energy compositions in a way that is accessible to musicians of all levels, providing inspiration and an easy way to enhance their sound without the hassle of creating complex compositions from scratch.
+
+Beyond just being a great resource for metal musicians, White Bat Audio’s backing tracks are widely appreciated for their production value. The tracks are recorded and produced with a focus on clarity, depth, and precision, ensuring that every instrument is balanced and every note is crisp. The sound quality is consistently top-notch, making it easy for musicians to layer their own instruments or vocals over the tracks without worrying about the mix. White Bat Audio’s versatility and dedication to excellence make them a go-to for musicians looking for professional-grade backing metal tracks that inspire creativity and allow for high-level performances. 
+				</p>
+				
+				<a href="https://www.youtube.com/watch?v=mvkWCfwppnw&list=PLLEnbi5KRv6Z8CMUtLiA81-wQCLVUOKYs&index=4" class="linkformat">Credit to White Bat Audio [YOUTUBE VIDEO LINK]</a>
+
+				<!--REQUIRED: video OR audio, 2-28-25-->
+				 <audio controls>
+					<source src="audio/hauntingoftheflesh.mp3" type="audio/mpeg">
+					<a href="audio/hauntingoftheflesh.mp3">Download Royalty Free</a>(MP3)
+				</audio>
+
+				<h3>(More....)</h3> 
+			</article>
+			
+			<article class="blog">
+				<header>
+					<a href="blogpg/impera.html"><h2>Impera (Ghost 2022) Album Review</h2></a>
+					<p>March 25, 2022</p>
+				</header>
+
+				<!--REQUIRED: image 1 of 5, 2-28-25-->
+				<!--REQUIRED: figure/figcaption, 3-2-25-->
+				<figure class="imageright">
+					<img src="images/impera.jpg" height="300" width="300" alt="The Impera album, a dark, almost monochromatic image of a man with a veiled face, wearing a regal, ornate robe, sitting on a throne-like structure, with a backdrop of swirling, shadowy patterns, strongly reminiscent of a photograph of the English occultist Aleister Crowley.">
+					<figcaption>
+					"Impera" (2022) Album Cover
+					</figcaption>
+				</figure>
+				
+<p>	Ghost's Impera is a bold and atmospheric journey that continues to build on the band's unique blend of hard rock, metal, and theatricality. With their signature combination of catchy melodies, dark themes, and intricate instrumentation, Impera explores concepts of power, corruption, and decadence. The album opens with "Imperium," setting the tone with grandiose orchestration and a sense of impending doom. Tracks like "Call Me Little Sunshine" and "Hunter's Moon" are standout examples of Ghost’s ability to craft hauntingly infectious tunes, while maintaining a balance between accessible rock anthems and eerie, cinematic soundscapes. The production is polished, with each song feeling expansive yet intimate, allowing the haunting atmosphere to permeate through the mix.
+
+What truly elevates Impera is the band's mastery in blending elements of classic rock with a modern, almost cinematic feel. While the album is undeniably rooted in the grandiosity of bands like Queen and Black Sabbath, there is an underlying sense of innovation that keeps it fresh and exciting. The album also marks a shift in the thematic focus, shifting from overt Satanic imagery to a broader, more introspective exploration of societal issues and human nature. This progression in both musical complexity and lyrical depth shows that Ghost is more than just a band that thrives on shock value—they are artists pushing boundaries while staying true to their theatrical roots. Impera is a captivating and thought-provoking album that solidifies Ghost’s position as one of the most innovative and entertaining acts in modern rock.</p>
+				
+				<!--REQUIRED: blockquote,3-2-25-->
+				<blockquote>ANGRYMETALGUY.COM:"And metal or not, IMPERA is a success. It’s not a perfect album, nor will it resonate with everyone, but an accessible, engaging occult rock record that explores the cyclical nature of empires by way of both hooks and heft is a record worth my time. Hopefully you’ll give it some of yours."
+				</blockquote>
+
+				<blockquote>THEROCKPIT.NET:"Musically this is Ghost on the next level and Impera is an album that shouldn’t be missed."
+				</blockquote>
+
+				<a href="blogpg/impera.html"><h3>(More....)</h3></a> 
+			</article>
+
+			<div class="middlediv">
+				<h2>[Load More...]</h2>
+			</div>
+		</section>
+
+		<section class="sidebar">
+			<div class=" sidebardiv boxup">
+				<h2 class="stick">News</h2>
+				<article class="sticktop sidebarart">
+					<header>
+					<h2>Gojira plays at the Olympics</h2>
+					<p>December 10, 2024</p>
+					</header>
+					<p>Gojira's performance at the Olympics, which took place during the opening ceremony of the 2024 Paris Summer Games, was a highly anticipated and electrifying moment. The French metal band delivered a powerful, high-energy set that showcased their signature blend of progressive metal and environmental activism. They performed some of their most iconic tracks, such as "Silvera" and "Stranded," captivating the audience with their intense sound and visuals, all while highlighting their message of sustainability and global consciousness. The band's inclusion in the event was a nod to France's rich musical diversity and the growing recognition of metal within mainstream cultural events.....</p>
+				</article>
+
+				<article class="sticktop sidebarart">
+					<header>
+					<h2>Ozzys Farewell Tour</h2>
+					<p>December 10, 2024</p>
+					</header>
+					<p>Ozzy Osbourne's declining health has significantly impacted his farewell tour, which was originally intended to mark the end of his decades-long career in rock music. The legendary Black Sabbath frontman has battled a series of health issues in recent years, including a debilitating neck injury, Parkinson’s disease, and multiple surgeries. These challenges have led to delays and cancellations of several tour dates, as Osbourne struggles with the physical toll of performing. Despite his determination to complete the tour, his health has made it increasingly difficult to continue performing at the level he's known for, prompting him to reconsider future touring plans. Osbourne's farewell tour, once seen as a triumphant celebration of his legacy, has become a bittersweet journey, as fans and the rock community alike recognize the toll that age and illness have taken on one of the genre's most iconic figures.</p>
+				</article>
+					
+			</div>
+			
+			<div class="sidebardiv boxup">
+				<h2 class="stick">Lists</h2>
+
+				<article class="sticktop sidebarart">
+					<header>
+					<h2 class="stickbelow">Best Lineups of 2024  </h2>
+					<p class="sticktop">December 28, 2024</p>
+					</header>
+				</article>
+
+				<article class="sticktop sidebarart">
+					<header>
+					<h2 class="stickbelow">Top 5 Metal Producers</h2>
+					<p class="sticktop">April 10, 2024</p>
+					</header>
+				</article>
+
+				<article class="sticktop sidebarart">
+					<header>
+					<h2 class="stickbelow">Rating Metallicas Discography</h2>
+					<p class="sticktop">February 17, 2024</p>
+					</header>
+				</article>
+			</div>
+
+			<div class="sidebardiv boxup">
+				<h2 class="stick">Reviews</h2>
+				<article class="sticktop sidebarart">
+					<header>
+					<h2 class="stickbelow">ALBUM--Mastodons "Hushed and Grim" (2021)</h2>
+					<p class="sticktop">January 10, 2025</p>
+					</header>
+				</article>
+
+				<article class="sticktop sidebarart">
+					<header>
+					<h2 class="stickbelow">ALBUM--Skinless "Trample the Weak, Hurdle the Dead(2006)</h2>
+					<p class="sticktop">December 19, 2024</p>
+					</header>
+				</article>
+
+				<article class="sticktop sidebarart">
+					<header>
+					<h2 class="stickbelow">SONG--Dissection "Maha Kali" (2006)</h2>
+					<p class="sticktop">November 23, 2024</p>
+					</header>
+				</article>
+			</div>
+			
+		</section>
+	</main>
+
+	<!--REQUIRED: footer semantic element, 2-28-25-->
+	<!--REQUIRED: special character, 2-28-25-->
+	<footer>
+		Copyright &copy; Summer Hall 2025
+	</footer>
+
+</body>
+
+</html>

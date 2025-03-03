@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--REQUIRED: head semantic element, 2-28-25-->
+<head>
+	<title>Metalonomicon :: Catalogue</title>
+	<meta charset="utf-8">
+	
+	<!--REQUIRED: author metadata, 2-28-25-->
+	<meta name="author" content="Summer Hall">
+
+	<!--REQUIRED: title metadata, 2-28-25-->
+	<meta name="title" content="Metalonomicon :: Catalogue"> 
+
+	<!--REQUIRED: keywords metadata, 2-28-25-->
+	<meta name="keywords" content="Metal, Music, Metal History"> 
+	
+	<!--REQUIRED: description metadata, 2-28-25-->
+	<meta name="description" content="The main page for the sites catalogue of information. The two main sections being bands and genres, which are further divided. There is also a preview of metal history that links to the main overarching metal history."> 
+
+	<!--REQUIRED: viewport metadata, 2-28-25-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="metalnomicon.css">
+
+	<style>
+		
+	</style>
+</head>
+
+<!--REQUIRED: Body semantic element, 2-28-25-->
+<body>
+	<header>
+		<h1 id="logo">Metal-onomicon</h1>
+	
+		<section id="loginnav">
+			<div id="login">
+				<!--REQUIRED: form element, 2-28-25-->	
+				<form method="get">
+					<h2 class="stickbelow">Member Login</h2>
+
+					<div class="replacebr">
+						<!--REQUIRED: input element 1 of 3, 2-28-25-->
+						Username:<input type="text" name="uname" id="uname">
+					</div>
+
+					<div class="replacebr">
+						<!--REQUIRED: input element 2 of 3, 2-28-25-->
+						Password:<input type="text" name="pword" id="pword">
+					</div>
+
+					<div class="replacebr">
+						<!--REQUIRED: submit button, 2-28-25-->
+						<input type="submit" value="Login">
+					</div>
+				</form>
+			</div>
+
+				<!--REQUIRED: nav semantic element, 2-28-25-->
+				<nav>
+					<a href="index.html">Home</a>
+					<a href="catalogue.html">Catalogue</a>
+					<a href="blog.html">Blog</a>
+					<a href="calendar.html">Calendar</a>
+					<a href="about.html">About</a>
+				</nav>
+		</section>
+	</header>
+
+	<!--REQUIRED: main semantic element, 2-28-25-->
+	<main>
+		<section class="sidebar">
+			<div class="sidebardiv">
+				<h2 class="stickbelow">Search Catalogue</h2>	
+				<form method="get">
+					<!--REQUIRED: input element 3 of 3, 2-28-25-->
+					Search<input type="text" name="search" id="search">
+					<input type="submit" value="Search">
+					<!--REQUIRED: reset button, 2-28-25-->
+					<input type="reset">
+				</form>
+			</div>
+		</section>
+
+		<section id="catalogues">
+			<div class="onethird">
+				<h2 class="stickbelow">Bands (A-Z)</h2>
+				<ul class="stick">
+					<li>(A-Z)</li>
+					<li>Country</li>
+					<li>Label</li>
+				</ul>
+			</div>
+
+			<div class="onethird">
+				<h2 class="stickbelow">Sub-genres</h2>
+				<ul class="stick">
+					<li>Heavy Metal</li>
+					<li>Thrash Metal</li>
+					<li>Death Metal</li>
+					<li>Black Metal</li>
+					<li>Doom Metal</li>
+					<li>Power Metal</li>
+					<li>Symphonic Metal</li>
+					<li>Progressive Metal</li>
+					<li>Gothic Metal</li>
+					<li>Folk Metal</li>
+					<li>Sludge Metal</li>
+					<li>Groove Metal</li>
+					<li>Grindcore</li>
+					<li>Metalcore</li>
+					<li>Post-Metal</li>
+					<li>Stoner Metal</li>
+					<li>Industrial Metal</li>
+					<li>Avant-garde Metal</li>
+					<li>Symphonic Death Metal</li>
+					<li>Nu-Metal</li>			
+				</ul>
+			</div>
+
+			<div class="onethird">
+				<article>
+					<header><h2 class="stickbelow">Metal History</h2></header>
+					<p>Heavy metal (or simply metal) is a genre of rock music that developed in the late 1960s and early 1970s, largely in the United Kingdom and United States. With roots in blues rock, psychedelic rock and acid rock, heavy metal bands developed a thick, monumental sound characterized by distorted guitars, extended guitar solos, emphatic beats and loudness.
+
+In 1968, three of the genre's most famous pioneers – British bands Led Zeppelin, Black Sabbath and Deep Purple – were founded.</p>
+				</article>
+			</div>
+		</section>
+
+	</main>
+
+	<!--REQUIRED: footer semantic element, 2-28-25-->
+	<!--REQUIRED: special character, 2-28-25-->
+	<footer>
+		Copyright &copy; Summer Hall 2025
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--REQUIRED: head semantic element, 2-28-25-->
+<head>
+	<title>Metalonomicon :: Calendar</title>
+	<meta charset="utf-8">
+	
+	<!--REQUIRED: author metadata, 2-28-25-->
+	<meta name="author" content="Summer Hall">
+
+	<!--REQUIRED: title metadata, 2-28-25-->
+	<meta name="title" content="Metalonomicon :: Calendar"> 
+
+	<!--REQUIRED: keywords metadata, 2-28-25-->
+	<meta name="keywords" content="Metal, Music, Show Dates, Concerts, Festivals"> 
+	
+	<!--REQUIRED: description metadata, 2-28-25-->
+	<meta name="description" content="This page is the main hub for the sites information on upcoming shows, music releases and other events. There is a main calendar showing the dates by a month and an overall sequential list to the side."> 
+
+	<!--REQUIRED: viewport metadata, 2-28-25-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="metalnomicon.css">
+
+	<style>
+		
+	</style>
+</head>
+
+<!--REQUIRED: Body semantic element, 2-28-25-->
+<body>
+	<header>
+		<h1 id="logo">Metal-onomicon</h1>
+	
+		<section id="loginnav">
+			<div id="login">
+				<!--REQUIRED: form element, 2-28-25-->	
+				<form method="get">
+					<h2 class="stickbelow">Member Login</h2>
+
+					<div class="replacebr">
+						<!--REQUIRED: input element 1 of 3, 2-28-25-->
+						Username:<input type="text" name="uname" id="uname">
+					</div>
+
+					<div class="replacebr">
+						<!--REQUIRED: input element 2 of 3, 2-28-25-->
+						Password:<input type="text" name="pword" id="pword">
+					</div>
+
+					<div class="replacebr">
+						<!--REQUIRED: submit button, 2-28-25-->
+						<input type="submit" value="Login">
+					</div>
+				</form>
+			</div>
+
+				<!--REQUIRED: nav semantic element, 2-28-25-->
+				<nav>
+					<a href="index.html">Home</a>
+					<a href="catalogue.html">Catalogue</a>
+					<a href="blog.html">Blog</a>
+					<a href="calendar.html">Calendar</a>
+					<a href="about.html">About</a>
+				</nav>
+		</section>
+	</header>
+
+	<!--REQUIRED: main semantic element, 2-28-25-->
+	<main>
+		<section class="sidebar">
+			<div class="sidebardiv">
+				<h2 class="stickbelow">Search Events</h2>	
+				<form method="get">
+					Search:<input type="text" name="search" id="search">
+					
+					<!--REQUIRED: fieldset, 3-1-25-->
+					<fieldset>
+						<!--REQUIRED: legend, 3-1-25-->
+						<legend>From Dates:</legend>
+						<label>Start:<input type="text" name="startdate" id="startdate" class="replacebr"></label>
+						<label>End:<input type="text" name="enddate" id="enddate" class="replacebr"></label>
+					</fieldset>
+	
+					<!--REQUIRED:select or datalist option element, 3-1-25-->
+					<label for="showfilt">Filter:</label>
+					<input type="text" name="showfilt" id="showfilt" list="filters">
+	 				<datalist id="filters">
+	 					<option>Tours</option>
+	 					<option>Band</option>
+	 					<option>Festival</option>
+	 					<option>Album Release</option>
+	 				</datalist>
+					
+					<p class="stickbelow">Sort:</p>
+					<ul id="sortlist" class="sticktop">
+						<li><input type="checkbox" name="descend" id="descend" value="yes">Descending(future to current)</li>
+						<li><input type="checkbox" name="ascend" id="ascend" value="yes">Ascending(current to future)</li>
+						<li><input type="checkbox" name="alphabet" id="alphabet" value="yes">Alphabetical</li>
+					</ul>
+	
+					<input type="submit" value="Search">
+					<input type="reset">
+				</form>
+			</div>
+
+			<div class="sidebardiv">
+				<h2 class="stickbelow">Events</h2>
+				<ul class="eventlist">
+					<li class="replacebr"><i>03/14/2025</i> - The Fillmore - Metallica</li>	
+					<li class="replacebr"><i>03/20/2025</i> - O2 Arena - Iron Maiden</li>		
+					<li class="replacebr"><i>04/05/2025</i> - Red Rocks Amphitheatre - Slayer</li>
+					<li class="replacebr"><i>04/15/2025</i> - Madison Square Garden - Ghost</li>
+					<li class="replacebr"><i>05/02/2025</i> - The Palladium - Mastodon</li>
+					<li class="replacebr"><i>05/20/2025</i> - Wembley Arena - Judas Priest</li>
+					<li class="replacebr"><i>06/01/2025</i> - Download Festival - Black Sabbath</li>
+					<li class="replacebr"><i>06/17/2025</i> - Hellfest Open Air - Amon Amarth</li>
+					<li class="replacebr"><i>07/03/2025</i> - Summer Breeze Festival - Arch Enemy</li>
+					<li class="replacebr"><i>08/22/2025</i> - House of Blues - Lamb of God</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="middle">
+			<table>
+				<caption>MARCH</caption>
+				<tr>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>1</td>
+				</tr>
+
+				<tr>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+				</tr>
+
+				<tr>
+					<td>9</td>
+					<td>10</td>
+					<td>11</td>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+				</tr>
+
+				<tr>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+					<td>20</td>
+					<td>21</td>
+					<td>22</td>
+				</tr>
+
+				<tr>
+					<td>23</td>
+					<td>24</td>
+					<td>25</td>
+					<td>26</td>
+					<td>27</td>
+					<td>28</td>
+					<td>29</td>
+				</tr>
+
+				<tr>
+					<td>30</td>
+					<td>31</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+
+			<div class="middlediv">
+				<h3><i>**Dates subject to change</i></h3>
+			</div>
+		</section>
+
+		<section class="sidebar">
+			<div class="sidebardiv">
+				<h2 class="stickbelow">Selected Event</h2>
+				<article class="event boxup">
+						<header>
+							<h2>Metallica</h2>
+							<p>March 14,2025 | 7:00pm | The Filmore</p>
+						</header>
+						<p>A Metallica show at The Fillmore is an unforgettable experience, steeped in raw energy, intimacy, and legendary performances. The iconic San Francisco venue, known for its rich history and intimate atmosphere, creates the perfect backdrop for Metallica's high-octane performance. The band, typically known for playing massive arenas and stadiums, brings their unparalleled musicianship to a more personal, sweat-soaked setting where fans are just a few feet away from the stage. Expect to see Metallica ripping through classic tracks like "Enter Sandman," "Master of Puppets," and "One," while also mixing in some deeper cuts and surprises from their extensive catalog. The stage is often adorned with minimalistic yet powerful setups, allowing the focus to remain on the music. Fans, many of whom are die-hard, are in a frenzy, headbanging and moshing as the band delivers thunderous riffs and high-energy solos. The raw power and intensity of Metallica's performance at The Fillmore transforms the venue into a chaotic, electrifying celebration of metal, making it a truly one-of-a-kind show for both the band and the audience. </p>
+				</article>
+			</div>
+		</section>
+
+	</main>
+
+	<!--REQUIRED: footer semantic element, 2-28-25-->
+	<!--REQUIRED: special character, 2-28-25-->
+	<footer>
+		Copyright &copy; Summer Hall 2025
+	</footer>
+
+</body>
+
+</html>
